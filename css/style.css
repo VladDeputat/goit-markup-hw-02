@@ -1,0 +1,116 @@
+/* banner and footer backgrounds #2F303A
+teammates background #F5F4FA
+logo #000000 #2196F3
+header nav #212121 #2196F3
+contact links #757575 #2196F3
+headings #212121
+discriptions #757575
+adress and email footer #FFFFFF, 60 % */
+
+:root {
+  --primary-heading-color: #212121;
+  --primary-text-color: #757575;
+  --banner-and-footer-background-color: #2f303a;
+  --teammates-section-background-color: #f5f4fa;
+  --header-color-hower: #2196f3;
+}
+
+/*---- removing decor ---*/
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* ---------header----------- */
+
+.header-logo {
+  color: #000000;
+}
+
+span {
+  color: #2196f3;
+}
+
+header {
+  color: var(--primary-heading-color);
+  background-color: #ffffff;
+}
+
+.nav-link {
+  color: var(--primary-heading-color);
+}
+
+.nav-link-current {
+  color: #2196f3;
+}
+
+.header-contact {
+  color: #757575;
+}
+
+.header-contact:hover,
+.nav-link:hover,
+.header-contact:focus,
+.nav-link:focus {
+  color: var(--header-color-hower);
+}
+
+/* --------banner------- */
+
+.banner {
+  background-color: var(--banner-and-footer-background-color);
+}
+.banner-heading {
+  color: #ffffff;
+}
+.make-order-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* --portfolio buttons-- */
+
+.portfolio-button {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+}
+/* --headings and text-- */
+
+h2,
+h3 {
+  color: var(--primary-heading-color);
+}
+
+p {
+  color: var(--primary-text-color);
+}
+
+.team {
+  background-color: var(--teammates-section-background-color);
+}
+
+/* ---footer--- */
+
+footer {
+  background-color: var(--banner-and-footer-background-color);
+}
+
+.footer-logo,
+.footer-address {
+  color: #ffffff;
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
