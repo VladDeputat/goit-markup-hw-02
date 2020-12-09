@@ -91,7 +91,7 @@ header {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.63;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -116,7 +116,6 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
 }
 
 .portfolio-button:hover,
@@ -136,7 +135,7 @@ h2 {
   text-align: center;
 }
 
-h3 {
+.strength-section h3 {
   color: var(--primary-heading-color);
   font-weight: 700;
   font-size: 14px;
@@ -144,19 +143,40 @@ h3 {
   text-transform: uppercase;
 }
 
-p {
+.strength-section p {
   color: var(--primary-text-color);
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.photo-discription {
+.teammates-section {
+  background-color: var(--teammates-section-background-color);
+}
+
+.teammates-section h3 {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
 
-.team {
-  background-color: var(--teammates-section-background-color);
+.teammates-section p {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.portfolio-section h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio-section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /* ---footer--- */
@@ -177,6 +197,7 @@ footer {
 .footer-address {
   color: #ffffff;
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -184,6 +205,7 @@ footer {
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
