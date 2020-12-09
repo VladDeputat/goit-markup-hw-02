@@ -15,6 +15,13 @@ adress and email footer #FFFFFF, 60 % */
   --header-color-hower: #2196f3;
 }
 
+/* ------body------ */
+body {
+  background-color: #ffffff;
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
 /*---- removing decor ---*/
 li {
   list-style: none;
@@ -27,9 +34,14 @@ a {
 
 .header-logo {
   color: #000000;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
-span {
+.header-logo span,
+.footer-logo span {
   color: #2196f3;
 }
 
@@ -40,14 +52,27 @@ header {
 
 .nav-link {
   color: var(--primary-heading-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-link-current {
   color: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-contact {
   color: #757575;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-contact:hover,
@@ -64,10 +89,22 @@ header {
 }
 .banner-heading {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .make-order-button {
   background-color: #2196f3;
   color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* --portfolio buttons-- */
@@ -75,6 +112,11 @@ header {
 .portfolio-button {
   color: #212121;
   background-color: #f5f4fa;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 
 .portfolio-button:hover,
@@ -83,8 +125,6 @@ header {
   color: #ffffff;
   background-color: #2196f3;
 }
-
-}
 /* --headings and text-- */
 
 h2,
@@ -92,8 +132,23 @@ h3 {
   color: var(--primary-heading-color);
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
 p {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 .team {
@@ -106,11 +161,25 @@ footer {
   background-color: var(--banner-and-footer-background-color);
 }
 
-.footer-logo,
+.footer-logo {
+  color: #ffffff;
+  font-family: raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
 .footer-address {
   color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
