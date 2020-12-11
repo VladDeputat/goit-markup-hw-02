@@ -168,12 +168,14 @@ h2 {
 }
 
 .portfolio-section h3 {
+  color: var(--primary-heading-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 
 .portfolio-section p {
+  color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
